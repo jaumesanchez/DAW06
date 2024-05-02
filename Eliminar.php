@@ -5,7 +5,10 @@ require_once('Connexio.php');
 
 class Eliminar {
 
-    // Método para eliminar un producto de la base de datos
+    /** Método para eliminar un producto de la base de datos
+     *  Una vez eliminado recarga la tabla de productos redireccionando a la pagina principal
+     * @param integer $id
+     */
     public function eliminar($id) {
         // Verifica si el ID del producto es válido
         if (!isset($id) || !is_numeric($id)) {
