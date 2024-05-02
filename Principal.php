@@ -1,5 +1,4 @@
 <?php
-phpinfo();
 require_once('Connexio.php');
 require_once('Header.php');
 
