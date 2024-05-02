@@ -5,6 +5,10 @@ require_once('Header.php');
 
 class Nou {
 
+    /**
+     * Funcio para mostrar formulario
+     * Muestra los campos necesarios para poder insertar un producto
+     */
     public function mostrarFormulari() {
         echo '
         <!DOCTYPE html>
@@ -54,7 +58,9 @@ class Nou {
         require_once('Footer.php');
     }
 
-    // Método para insertar un nuevo producto en la base de datos
+    /**
+     * Método para insertar un nuevo producto en la base de datos
+     */
     public function nouProducte($nom, $descripcio, $preu, $categoria) {
         // Verifica si todos los campos requeridos están presentes
         if (!isset($nom) || !isset($descripcio) || !isset($preu) || !isset($categoria)) {
