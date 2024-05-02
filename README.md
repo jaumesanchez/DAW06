@@ -7,7 +7,7 @@ Benvingut al repositori d'una aplicació web per gestionar una botiga en línia,
 - Eliminar productes existents de la botiga.
 - Documentació generada amb phpDocumentor, inclosa a la carpeta documentation
 
-##Requisits Previs
+## Requisits Previs
 - PHP
 - MySQL
 
